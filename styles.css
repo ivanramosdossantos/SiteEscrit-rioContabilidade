@@ -37,3 +37,9 @@
 
 /* Ocultar corretamente a imagem quando o carregamento falhar */
 .brand-official[hidden],.brand-fallback[hidden]{display:none!important}
+
+/* Team photo consistency: identical image boxes and photographic filling */
+.team-photo.rayane,.team-photo.valquiria{background:#e9e6e2}
+.team-photo.rayane img,.team-photo.valquiria img{width:100%;height:100%;padding:0;object-fit:cover;object-position:center 24%}
+/* Official WhatsApp silhouette at visually balanced weight */
+.wa-float svg{width:27px;height:27px;display:block;flex-shrink:0}
