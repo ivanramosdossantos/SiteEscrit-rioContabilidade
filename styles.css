@@ -9,3 +9,20 @@
 .hero-visual-caption{right:0;bottom:0}
 @media(max-width:780px){.hero-visual{height:auto;min-height:0;max-width:590px;grid-template-columns:repeat(2,minmax(0,1fr));padding:0 12px 12px 0;gap:12px}.hero-frame,.hero-frame.second{height:clamp(250px,58vw,400px);width:100%;top:auto}}
 @media(max-width:540px){.hero-visual{height:auto;gap:9px}.hero-frame,.hero-frame.second{height:clamp(220px,66vw,330px);border:0;border-radius:100px 100px 7px 7px}.hero-visual-caption{display:none}}
+
+/* UX rodada 3: serviços mais compactos, ícones consistentes e WhatsApp aprimorado */
+.service-grid{gap:16px;border:0}
+.service-card{min-height:294px;padding:25px;border:1px solid #dce5e4;border-radius:10px;box-shadow:0 4px 18px rgba(3,40,58,.025);justify-content:flex-start;gap:16px}
+.service-card-top{align-items:center}
+.service-icon{display:grid;place-items:center;width:49px;height:49px;border-radius:12px;background:#eaf2f3;color:#164761}
+.service-card-bottom{margin-top:auto}
+.service-card h3{font-size:19px;margin-bottom:8px}
+.service-card p{min-height:0;margin:0;line-height:1.65;font-size:12.5px}
+.service-card a{margin-top:18px;padding-top:12px;border-top:1px solid #e8eded;justify-content:space-between}
+.service-card:hover{border-color:#b6d2d7;background:#fff}
+.wa-float{color:#fff;isolation:isolate;box-shadow:0 7px 25px #006c3340;border:2px solid #ffffffa8}
+.wa-float svg{display:block;flex:none;overflow:visible}
+.wa-float:focus-visible{outline:3px solid #03283a;outline-offset:3px}
+.team-meta p{font-size:13px;line-height:1.75;max-width:480px}
+.team-meta p em{display:block;font-size:10px;font-style:normal;color:#81929a;margin-top:8px}
+@media(max-width:540px){.service-grid{gap:12px}.service-card{min-height:255px;padding:22px}.wa-float{width:56px;height:56px}}
