@@ -26,3 +26,11 @@
 .team-meta p{font-size:13px;line-height:1.75;max-width:480px}
 .team-meta p em{display:block;font-size:10px;font-style:normal;color:#81929a;margin-top:8px}
 @media(max-width:540px){.service-grid{gap:12px}.service-card{min-height:255px;padding:22px}.wa-float{width:56px;height:56px}}
+
+/* Identidade visual oficial: arquivo recebido do cliente (sem redesenho) */
+.brand-official{display:block;width:188px;height:65px;object-fit:contain;object-position:left center;flex:none}
+.brand-fallback{display:block;font-family:var(--font);font-weight:800;font-size:17px;letter-spacing:.4px;line-height:1.12}
+.brand-fallback[hidden]{display:none}
+.brand-fallback em{font-style:normal;font-weight:500}
+.brand-fallback small{display:block;font-size:8px;letter-spacing:4px;text-align:center;margin-top:5px}
+@media(max-width:540px){.brand-official{width:145px;height:52px}.brand-fallback{font-size:14px}}
